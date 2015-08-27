@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+body, html {
+  height:100%;
+  width:100%;
+}
+.main-page{
+  padding: 15px;
+  margin-right: 15px;
+}
+.runners {
+
+  height:10%;
+  width: 100%;
+  background-color: black;
+
+}
+.runners-bottom {
+  clear:both;
+  height:10%;
+  width: 100%;
+  background-color: black;
+
+}
+
+.nav-box {
+  display:inline-block;
+  float:left;
+  text-align: center;
+  font-size: 30px;
+  margin-left: 50px;
+  line-height: 30px;
+  color:white;
+  padding:15px;
+
+}
+.left-col {
+  display: inline-block;
+  width:50%;
+  float:left;
+  padding: 25px;
+
+}
+.right-col {
+  display: inline-block;
+  width:50%;
+  float:right;
+  padding: 15px;
+}
+.big-text {
+  font-size: 60px;
+  text-align: left;
+}
+
+.small-text {
+  margin-top:15px;
+}
+
+.img-container {
+  height:300px;
+  width: 500px;
+  background-color: grey;
+  display: inline-block;
+
+}
